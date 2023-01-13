@@ -1,5 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
 /* Top player style */
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
